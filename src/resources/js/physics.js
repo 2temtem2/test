@@ -519,7 +519,7 @@ function processPlayerMovementAndSetPlayerPosition(
       playerVelocityX = userInput.xDirection * 6;
     } else {
       // player.state === 3 i.e. player is diving..
-      playerVelocityX = player.divingDirection * 8;
+      playerVelocityX = player.divingDirection * 1;
     }
   }
 
